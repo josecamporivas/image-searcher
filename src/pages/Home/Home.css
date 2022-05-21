@@ -1,0 +1,16 @@
+#searchForm{
+    text-align: center;
+}
+
+#inputTopic{
+    margin: 0 7px;
+}
+
+#popularSearchesTitle{
+    margin-block-end: 0;
+}
+
+#popularSearchesList{
+    margin-block-start: 0;
+    list-style: none;
+}
