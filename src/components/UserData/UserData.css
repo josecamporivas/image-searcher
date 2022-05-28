@@ -1,0 +1,45 @@
+.userData{
+    margin: 10px 0;
+    padding: 6px;
+    display: grid;
+    border: 1px solid rgb(29, 111, 121);
+    border-radius: 10px;
+    grid-template-columns: 80px 200px;
+    grid-template-rows: 10px 20px 20px 20px 10px;
+    column-gap: 10px;
+}
+
+.imageUserData{
+    height: 80px;
+    width: auto;
+    border-radius: 100%;
+    grid-column: 1;
+    grid-row: 1/4;
+}
+
+.nameUserData{
+    grid-row: 2;
+    grid-column: 2;
+    font-size: 17px;
+    margin: 0;
+}
+.instagramInfo{
+    grid-row: 3;
+    grid-column: 2;
+}
+.instagramInfo > a > p{
+    color: rgb(172, 171, 171);
+    margin: 0 0 0 15px;
+    font-size: 13px;
+}
+
+.twitterInfo{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.twitterInfo > a > p{
+    color: rgb(172, 171, 171);
+    margin: 0 0 0 15px;
+    font-size: 13px;
+}
