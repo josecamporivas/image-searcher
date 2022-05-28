@@ -1,7 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import './PopularSearches.css'
 
-const POPULAR_SEARCHS = ['Matrix', 'Random', 'Architecture']
+const POPULAR_SEARCHS = ['matrix', 'random', 'architecture', 'nature']
 
 export default function PopularSearches() {
     return (
